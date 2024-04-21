@@ -12,6 +12,8 @@ The enumeration of spikes within a random point process translates to the abilit
 ### Subset of Space \(X\):
 By focusing on subsets of the temporal space \(A\) within \(X\), researchers can isolate specific intervals for analysis. \(N(A:w)\), the count of spikes within subset \(A\), becomes a critical measure. This segmentation allows for the examination of neural activity in varying contexts—be it in response to a particular stimulus, during different phases of cognitive processing, or across distinct states of consciousness.
 
+
+
 ## Mathematical Representation of Counting Processes
 The mathematical formulation of counting processes is elegantly simple yet profoundly informative. The count \(N(A:w)\) is derived from summing over an indicator function \(I_A(x_j)\), which assigns a value of 1 to each spike \(x_j\) that falls within the subset \(A\) and 0 otherwise. This binary distinction simplifies the process of tallying spikes within specified intervals, rendering \(N(A:w)\) a nonnegative, integer-valued random process that encapsulates the essence of neuronal firing patterns within the chosen temporal window.
 
