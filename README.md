@@ -6,7 +6,8 @@ At its core, a counting process is a mathematical construct designed to count th
 In the context of neuronal spikes, the random point process represents the sporadic and unpredictable nature of neural firing over time. Each spike is a point in this temporal continuum, indicative of a neuron's response to internal or external stimuli. The randomness inherent in these processes reflects the complex interplay of excitatory and inhibitory signals within neural circuits, modulated by both deterministic and stochastic factors.
 
 ### Denumerable Point Set:
-The enumeration of spikes within a random point process translates to the ability to sequence each neural firing event over time. For a given neuron, its spike train—comprising spikes \(X_1, X_2, \ldots\)—can be ordered chronologically, providing a discrete mapping of its activity. This sequence forms the backbone of the counting process, serving as the raw data from which further analysis can be derived.
+The enumeration of spikes within a random point process translates to the ability to sequence each neural firing event over time. For a given neuron, its spike train—comprising spikes $$X_1, X_2, \ldots$$—can be ordered chronologically, providing a discrete mapping of its activity. This sequence forms the backbone of the counting process, serving as the raw data from which further analysis can be derived.
+
 
 ### Subset of Space \(X\):
 By focusing on subsets of the temporal space \(A\) within \(X\), researchers can isolate specific intervals for analysis. \(N(A:w)\), the count of spikes within subset \(A\), becomes a critical measure. This segmentation allows for the examination of neural activity in varying contexts—be it in response to a particular stimulus, during different phases of cognitive processing, or across distinct states of consciousness.
