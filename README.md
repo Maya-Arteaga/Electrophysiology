@@ -17,6 +17,7 @@ By focusing on subsets of the temporal space \(A\) within \(X\), researchers can
 ## Mathematical Representation of Counting Processes
 The mathematical formulation of counting processes is elegantly simple yet profoundly informative. The count \(N(A:w)\) is derived from summing over an indicator function \(I_A(x_j)\), which assigns a value of 1 to each spike \(x_j\) that falls within the subset \(A\) and 0 otherwise. This binary distinction simplifies the process of tallying spikes within specified intervals, rendering \(N(A:w)\) a nonnegative, integer-valued random process that encapsulates the essence of neuronal firing patterns within the chosen temporal window.
 
+
 ## Raster Plots
 Raster plots are one of the most direct methods of visualizing spike train data. In a raster plot, each row corresponds to a single trial or a single neuron, and spikes are marked as points along a time axis. This visualization helps in observing the temporal patterns of neuronal firing and the synchronization across trials or neurons. By using random counting processes, each spike is recorded as an event, allowing researchers to capture and analyze patterns within and across neuronal firing.
 
