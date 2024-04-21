@@ -15,7 +15,8 @@ By focusing on subsets of the temporal space \(A\) within \(X\), researchers can
 
 
 ## Mathematical Representation of Counting Processes
-The mathematical formulation of counting processes is elegantly simple yet profoundly informative. The count \(N(A:w)\) is derived from summing over an indicator function \(I_A(x_j)\), which assigns a value of 1 to each spike \(x_j\) that falls within the subset \(A\) and 0 otherwise. This binary distinction simplifies the process of tallying spikes within specified intervals, rendering \(N(A:w)\) a nonnegative, integer-valued random process that encapsulates the essence of neuronal firing patterns within the chosen temporal window.
+The mathematical formulation of counting processes is straightforward but informative. The count, denoted as "N(A:w)", is derived by summing over an indicator function "I_A(x_j)". This function assigns a value of 1 to each spike "x_j" that falls within the subset "A" and 0 otherwise. This binary distinction simplifies the process of tallying spikes within specified intervals, rendering "N(A:w)" a nonnegative, integer-valued random process that captures the essence of neuronal firing patterns within the chosen temporal window.
+
 
 
 ## Raster Plots
